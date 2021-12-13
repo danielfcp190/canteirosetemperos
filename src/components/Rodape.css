@@ -1,0 +1,6 @@
+.rodape-container {
+    font-size: calc(0.5em + 1vw);
+    text-align: center;
+    color: rgb(89, 49, 31);
+    font-family: 'Patrick Hand SC', cursive;
+}

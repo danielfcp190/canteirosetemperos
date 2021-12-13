@@ -1,0 +1,107 @@
+.nav-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+     position: absolute;
+     width: 78%;
+     height: auto;
+     top: 0;
+     z-index: 0;
+ }
+ 
+ .carouselMask {
+     position: relative;
+     width: 115%;
+     z-index: 1;
+ }
+
+ .logo {
+     position: absolute;
+     top: -22%;
+     right: 12%;
+     z-index: 1;
+ }
+
+ .navbar {
+    position: absolute;
+    bottom: 7%;
+    background-color: transparent;
+    margin: 0 auto;
+    z-index: 2;
+    
+}
+
+.navbar a, span {
+    font-size: 2.5vw;
+    font-family: 'Patrick Hand SC', cursive;
+    color: white;
+}
+
+.navbar a {
+    cursor: pointer;
+}
+
+.navbar span {
+    padding-right: 0.5em;
+}
+
+.dropdown {
+    display: none;
+}
+
+@media screen and (min-width: 1500px) {
+    .carousel {
+        width: 63%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar, .carouselMask {
+        display: none;
+    }
+
+    .nav-container {
+        display: block;
+        position: relative;
+    }
+       
+    
+
+    .carousel {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: relative;
+
+    }
+
+    
+
+    .logo {
+        position: absolute;
+        display: block;
+        right: 1%;
+        
+    }
+
+    .dropdown {
+        position: relative;
+        display: block;
+        background-color: rgb(139, 137, 20);
+
+    }
+
+    #dropdownMenuButton1{
+        color: white;
+        font-size: calc(1.2em + 1vw);
+    }
+
+    
+
+
+  }

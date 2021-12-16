@@ -66,8 +66,12 @@
     }
 
     .nav-container {
+        margin-left: -1.6vw;
+        padding: 0;
+        width: 100vw;
         display: block;
         position: relative;
+       
     }
        
     
@@ -84,9 +88,8 @@
 
     .logo {
         position: absolute;
-        display: block;
-        right: 1%;
-        
+        top: -30vw;
+        right: 1vw;
     }
 
     .dropdown {

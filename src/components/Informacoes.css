@@ -17,7 +17,7 @@
 .informacoes p {
     font-family: 'Patrick Hand SC', cursive;
     line-height: 1;
-    font-size: calc(0.7em + 1vw);
+    font-size: calc(1em + 1vw);
     font-weight: 475;
     margin-left: 40px;
 }

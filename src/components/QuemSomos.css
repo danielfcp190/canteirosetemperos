@@ -8,18 +8,19 @@
 .quemSomos-container {
     background-color: rgb(139, 137, 20, 0.75);
     border-top: solid 3px rgb(89, 49, 31, 0.75);
+    display: flex;
     align-items: center;
-    padding: 5%;
+    padding: 3vw;
+    justify-content: space-between;
 }
 
 .videoInstitucional {
     border:solid 3px rgb(89, 49, 31);
     border-radius: 25px;
+    display: block;
+    margin: 5vw auto;
     width: calc(15em + 12vw);
     height: calc(6em + 10vw);
-    margin: auto;
-    max-width: 100%;
-    display: block;
     
 }
 
@@ -27,8 +28,7 @@
 .texto-quemsomos {
     line-height: 1;
     color: white;
-    font-size: calc(0.7em + 1vw);
-    margin: 10% 0;
+    font-size: calc(1em + 1vw);
     font-weight: 350;
     font-family: 'Patrick Hand SC', cursive;
 }

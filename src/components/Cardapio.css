@@ -14,7 +14,8 @@
 
 .legendaCardapio {
     font-family: 'Patrick Hand SC', cursive;
-    font-size: calc(0.7em + 1vw);
+    font-size: calc(1em + 1vw);
+    font-weight: bold;
     color: rgb(89, 49, 31);
 }
 
